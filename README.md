@@ -1,8 +1,6 @@
-# PENTA CRU TEST SUITE
-# CRUD Test Suite for Users Resource
-
-## Overview
-This repository contains a test suite to perform and verify CRUD (Create, Read, Update, Delete) operations on a resource using the [CrudCrud API](https://crudcrud.com/). For this implementation, we will manage a resource of **users**.
+# PENTA CRUD TEST SUITE
+Develoed a test suite to perform and verify CRUD (Create, Read, Update, Delete) operations on a resource of "BOOKS" using the [CrudCrud API](https://crudcrud.com/).
+NOTE: Each created resource is automatically assigned a unique identifier for easy reference. Please see [CrudCrud API](https://crudcrud.com/) docs for more information.
 
 ## API Endpoints
 The following API endpoints are used for CRUD operations:

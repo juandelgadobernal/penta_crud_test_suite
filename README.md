@@ -5,11 +5,11 @@ NOTE: Each created resource is automatically assigned a unique identifier for ea
 ## API Endpoints
 The following API endpoints are used for CRUD operations:
 
-- **POST** `/users` - Create a new user
-- **GET** `/users` - Retrieve all users
-- **GET** `/users/{id}` - Retrieve a user by ID
-- **PUT** `/users/{id}` - Update an existing user by ID
-- **DELETE** `/users/{id}` - Delete a user by ID
+- **POST** `/books` - Create a new book
+- **GET** `/books` - Retrieve all books
+- **GET** `/books/{id}` - Retrieve a book by ID
+- **PUT** `/books/{id}` - Update an existing book (First one)
+- **DELETE** `/books/{id}` - Delete a books by ID
 
 ## Instructions
 
@@ -32,17 +32,25 @@ In this implementation, we follow the **Page Object Model (POM)** design pattern
 ### 5. Test Suite Overview
 The test suite includes the following tests for CRUD operations on the users resource:
 
-1. **Create User**
-2. **Read Users**
-3. **Update User**
-4. **Delete User**
+1. **Create book**
+2. **Read books**
+3. **Update book**
+4. **Delete books**
   
 # Project Structure
 ## Directory and File Descriptions
+- **main.py**: File to run the test suite.
 - **README.md**: Contains project overview, setup instructions, and usage details.
 - **requirements.txt**: Lists the Python packages required for the project.
+- **apis/**: This directory contains the methods for interacting with user-related API endpoints
 - **tests/**: This directory contains the test files.
-- **pages/**: This directory contains the methods for interacting with user-related API endpoints 
 - **utils/**: Contains extra help functions and utilities
+- **data/**: This directory contains JSON data files.
 - **venv/**: Contains the virtual environment
 
+## Usage
+
+To run the **main.py** file, navigate to your project directory in the terminal and execute:
+
+```bash
+python main.py

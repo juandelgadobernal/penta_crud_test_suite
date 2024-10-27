@@ -1,0 +1,20 @@
+# Ignore the virtual environment
+venv/
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Configuration files
+*.pyo
+*.pyd
+.DS_Store
+*.egg-info/
+*.egg
+
+# Test files
+.pytest_cache/
+
+# Log files
+*.log

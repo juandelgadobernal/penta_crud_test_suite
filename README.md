@@ -15,30 +15,36 @@ The following API endpoints are used for CRUD operations:
 
 ## Instructions
 
-### 1. Select a Resource
-We will manage **users** through CRUD operations.
-
-### 2. Implementation Language
+### 1. Implementation Language
 The test suite is implemented in **Python**.
 
-### 3. Testing Framework
+### 2. Testing Framework
 We use **pytest** as our testing framework.
 
-### 4. Test Suite Overview
+### 3. Libraries Used
+The following libraries are utilized in this project:
+
+- **requests**: For making HTTP requests to the CrudCrud API.
+- **pytest**: For structuring and running the test suite.
+- **json**: For handling JSON data in Python.
+
+### 4. Page Object Model (POM)
+In this implementation, we follow the **Page Object Model (POM)** design pattern to encapsulate the API endpoints and their operations. This enhances maintainability and readability by separating the test logic from the API interaction logic. Each resource (e.g., `User`) can be represented as a class that contains methods for CRUD operations.
+
+### 5. Test Suite Overview
 The test suite includes the following tests for CRUD operations on the users resource:
 
 1. **Create User**
-   - Test to create a new user with valid JSON payload.
-  
 2. **Read Users**
-   - Test to retrieve all users.
-   - Test to retrieve a user by valid ID.
-   - Test to handle retrieving a user by invalid ID.
-  
 3. **Update User**
-   - Test to update an existing user with valid JSON payload.
-   - Test to handle updating a user with an invalid ID.
-  
 4. **Delete User**
-   - Test to delete a user by valid ID.
-   - Test to handle deleting a user with
+  
+# Project Structure
+## Directory and File Descriptions
+- **README.md**: Contains project overview, setup instructions, and usage details.
+- **requirements.txt**: Lists the Python packages required for the project.
+- **tests/**: This directory contains the test files.
+- **pages/**: This directory contains the methods for interacting with user-related API endpoints 
+- **utils/**: Contains extra help functions and utilities
+- **venv/**: Contains the virtual environment
+
